@@ -30,25 +30,28 @@ int main(){
 		GPIO->OUTCLR = (1 << i);
 	}
 
-	// Configure buttons -> see button_init()
+	button_init();
+
+	GPIO->OUT |= (1 << 17); // Disable
+	GPIO->OUT |= (1 << 18); // Disable
+	GPIO->OUT |= (1 << 19); // Disable
+	GPIO->OUT |= (1 << 20); // Disable
 
 	int sleep = 0;
 	while(1){
+		if ((GPIO->IN & (1 << 13)) == 0) {
+			GPIO->OUT &= ~(1 << 17);
+			GPIO->OUT &= ~(1 << 18);
+			GPIO->OUT &= ~(1 << 19);
+			GPIO->OUT &= ~(1 << 20);
+		}
 
-		/* Check if button 1 is pressed;
-		 * turn on LED matrix if it is. */
-
-		// GPIO->OUT |= (1 << 17) // Disable
-
-		GPIO->OUT &= ~(1 << 17);
-		GPIO->OUT &= ~(1 << 18);
-
-		// if (GPIO->IN & 8192 != 0) {
-			
-		// }
-
-		/* Check if button 2 is pressed;
-		 * turn off LED matrix if it is. */
+		if ((GPIO->IN & (1 << 14)) == 0) { // Maybe?
+			GPIO->OUT |= (1 << 17); // Disable
+			GPIO->OUT |= (1 << 18); // Disable
+			GPIO->OUT |= (1 << 19); // Disable
+			GPIO->OUT |= (1 << 20); // Disable
+		}
 
 		sleep = 10000;
 		while(--sleep); // Delay
