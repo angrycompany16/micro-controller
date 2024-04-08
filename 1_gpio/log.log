@@ -1,0 +1,194 @@
+[2024-Apr-08 13:41:37] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:37] [ info] nrfjprog --recover --log 
+[2024-Apr-08 13:41:37] [ info] nrfjprog version 10.15.3 external
+[2024-Apr-08 13:41:37] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:37] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Apr-08 13:41:37] [ info] Library loaded, loading member functions.
+[2024-Apr-08 13:41:37] [ info] Member functions succesfully loaded.
+[2024-Apr-08 13:41:37] [debug] [ Client] - open
+[2024-Apr-08 13:41:37] [debug] [ Client] - start
+[2024-Apr-08 13:41:37] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 8dd376d0-1708-4c9b-a09a-3ab54bb64987.
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Apr-08 13:41:37] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Apr-08 13:41:37] [debug] [  nRFXX] - open
+[2024-Apr-08 13:41:37] [debug] [  nRFXX] - just_check_family
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - open_dll
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Apr-08 13:41:37] [trace] [ Client] - Command open executed for 2 milliseconds with result 0
+[2024-Apr-08 13:41:37] [debug] [ Client] - enum_emu_snr
+[2024-Apr-08 13:41:37] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Apr-08 13:41:37] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Apr-08 13:41:37] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - dll_version
+[2024-Apr-08 13:41:37] [ info] [SeggerBackend] - Segger dll version 7.58.b loaded.
+[2024-Apr-08 13:41:37] [trace] [ Worker] - Command open executed for 1 milliseconds with result 0
+[2024-Apr-08 13:41:37] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Apr-08 13:41:37] [trace] [ Client] - Command enum_emu_con_info executed for 107 milliseconds with result 0
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:37] [trace] [ Worker] - Command enum_emu_con_info executed for 107 milliseconds with result 0
+[2024-Apr-08 13:41:37] [debug] [  nRFXX] - close
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - close
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:37] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Apr-08 13:41:37] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Apr-08 13:41:37] [trace] [ Client] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:37] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:37] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:37] [trace] [ Worker] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:37] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:37] [trace] [ Worker] - Executed 4 commands for 118 milliseconds
+[2024-Apr-08 13:41:37] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:37] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:37] [debug] [ Client] - Child process terminated with result 0
+[2024-Apr-08 13:41:37] [trace] [ Client] - Executed 4 commands for 119 milliseconds
+[2024-Apr-08 13:41:37] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:41] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:41] [ info] nrfjprog --recover --log 
+[2024-Apr-08 13:41:41] [ info] nrfjprog version 10.15.3 external
+[2024-Apr-08 13:41:41] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:41] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Apr-08 13:41:41] [ info] Library loaded, loading member functions.
+[2024-Apr-08 13:41:41] [ info] Member functions succesfully loaded.
+[2024-Apr-08 13:41:41] [debug] [ Client] - open
+[2024-Apr-08 13:41:41] [debug] [ Client] - start
+[2024-Apr-08 13:41:41] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence ef520db5-3d46-43cc-9d39-a4df3ff49f49.
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Apr-08 13:41:41] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Apr-08 13:41:41] [debug] [  nRFXX] - open
+[2024-Apr-08 13:41:41] [debug] [  nRFXX] - just_check_family
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - open_dll
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Apr-08 13:41:41] [trace] [ Client] - Command open executed for 2 milliseconds with result 0
+[2024-Apr-08 13:41:41] [debug] [ Client] - enum_emu_snr
+[2024-Apr-08 13:41:41] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Apr-08 13:41:41] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Apr-08 13:41:41] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - dll_version
+[2024-Apr-08 13:41:41] [ info] [SeggerBackend] - Segger dll version 7.58.b loaded.
+[2024-Apr-08 13:41:41] [trace] [ Worker] - Command open executed for 1 milliseconds with result 0
+[2024-Apr-08 13:41:41] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Apr-08 13:41:41] [trace] [ Client] - Command enum_emu_con_info executed for 107 milliseconds with result 0
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:41] [trace] [ Worker] - Command enum_emu_con_info executed for 107 milliseconds with result 0
+[2024-Apr-08 13:41:41] [debug] [  nRFXX] - close
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - close
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:41] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Apr-08 13:41:41] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Apr-08 13:41:41] [trace] [ Client] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:41] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:41] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:41] [trace] [ Worker] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:41] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:41] [trace] [ Worker] - Executed 4 commands for 118 milliseconds
+[2024-Apr-08 13:41:41] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:41] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:41] [debug] [ Client] - Tried to wait on already ended process: wait error: No child processes
+[2024-Apr-08 13:41:41] [debug] [ Client] - Child process terminated with result 0
+[2024-Apr-08 13:41:41] [trace] [ Client] - Executed 4 commands for 119 milliseconds
+[2024-Apr-08 13:41:41] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:49] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:49] [ info] nrfjprog --log 
+[2024-Apr-08 13:41:49] [ info] nrfjprog version 10.15.3 external
+[2024-Apr-08 13:41:49] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:49] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Apr-08 13:41:49] [ info] Library loaded, loading member functions.
+[2024-Apr-08 13:41:49] [ info] Member functions succesfully loaded.
+[2024-Apr-08 13:41:49] [debug] [ Client] - open
+[2024-Apr-08 13:41:49] [debug] [ Client] - start
+[2024-Apr-08 13:41:49] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 3d4128b9-3177-433c-b350-ba244c8950ed.
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Apr-08 13:41:49] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Apr-08 13:41:49] [debug] [  nRFXX] - open
+[2024-Apr-08 13:41:49] [debug] [  nRFXX] - just_check_family
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - open_dll
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Apr-08 13:41:49] [trace] [ Client] - Command open executed for 2 milliseconds with result 0
+[2024-Apr-08 13:41:49] [debug] [ Client] - enum_emu_snr
+[2024-Apr-08 13:41:49] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Apr-08 13:41:49] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Apr-08 13:41:49] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - dll_version
+[2024-Apr-08 13:41:49] [ info] [SeggerBackend] - Segger dll version 7.58.b loaded.
+[2024-Apr-08 13:41:49] [trace] [ Worker] - Command open executed for 1 milliseconds with result 0
+[2024-Apr-08 13:41:49] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Apr-08 13:41:49] [trace] [ Client] - Command enum_emu_con_info executed for 109 milliseconds with result 0
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:49] [trace] [ Worker] - Command enum_emu_con_info executed for 109 milliseconds with result 0
+[2024-Apr-08 13:41:49] [debug] [  nRFXX] - close
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - close
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:49] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Apr-08 13:41:49] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Apr-08 13:41:49] [trace] [ Client] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:49] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:49] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:49] [trace] [ Worker] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:49] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:49] [trace] [ Worker] - Executed 4 commands for 120 milliseconds
+[2024-Apr-08 13:41:49] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:49] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:49] [debug] [ Client] - Tried to wait on already ended process: wait error: No child processes
+[2024-Apr-08 13:41:49] [debug] [ Client] - Child process terminated with result 0
+[2024-Apr-08 13:41:49] [trace] [ Client] - Executed 4 commands for 121 milliseconds
+[2024-Apr-08 13:41:49] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:54] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:54] [ info] nrfjprog --recover --log 
+[2024-Apr-08 13:41:54] [ info] nrfjprog version 10.15.3 external
+[2024-Apr-08 13:41:54] [ info] --------------------------------------------------------------------------------
+[2024-Apr-08 13:41:54] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Apr-08 13:41:54] [ info] Library loaded, loading member functions.
+[2024-Apr-08 13:41:54] [ info] Member functions succesfully loaded.
+[2024-Apr-08 13:41:54] [debug] [ Client] - open
+[2024-Apr-08 13:41:54] [debug] [ Client] - start
+[2024-Apr-08 13:41:54] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 54cc3b4e-31ce-4ab3-8cc7-49158a0bb551.
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Apr-08 13:41:54] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Apr-08 13:41:54] [debug] [  nRFXX] - open
+[2024-Apr-08 13:41:54] [debug] [  nRFXX] - just_check_family
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - open_dll
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Apr-08 13:41:54] [trace] [ Client] - Command open executed for 2 milliseconds with result 0
+[2024-Apr-08 13:41:54] [debug] [ Client] - enum_emu_snr
+[2024-Apr-08 13:41:54] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Apr-08 13:41:54] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Apr-08 13:41:54] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - dll_version
+[2024-Apr-08 13:41:54] [ info] [SeggerBackend] - Segger dll version 7.58.b loaded.
+[2024-Apr-08 13:41:54] [trace] [ Worker] - Command open executed for 1 milliseconds with result 0
+[2024-Apr-08 13:41:54] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Apr-08 13:41:54] [trace] [ Client] - Command enum_emu_con_info executed for 108 milliseconds with result 0
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:54] [trace] [ Worker] - Command enum_emu_con_info executed for 108 milliseconds with result 0
+[2024-Apr-08 13:41:54] [debug] [  nRFXX] - close
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - close
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Apr-08 13:41:54] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Apr-08 13:41:54] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Apr-08 13:41:54] [trace] [ Client] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:54] [debug] [ Client] - terminate
+[2024-Apr-08 13:41:54] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:54] [trace] [ Worker] - Command close executed for 10 milliseconds with result 0
+[2024-Apr-08 13:41:54] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Apr-08 13:41:54] [trace] [ Worker] - Executed 4 commands for 119 milliseconds
+[2024-Apr-08 13:41:54] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:54] [debug] [ Client] - Worker process exited with code: 0
+[2024-Apr-08 13:41:54] [debug] [ Client] - Child process terminated with result 0
+[2024-Apr-08 13:41:54] [trace] [ Client] - Executed 4 commands for 120 milliseconds
+[2024-Apr-08 13:41:54] [debug] [ Client] - terminate
